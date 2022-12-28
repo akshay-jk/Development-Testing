@@ -8,8 +8,4 @@ app.use(express.json());
 
 app.use('/Calc', Router);
 
-app.listen(3000, () => {
-    console.log('App is listening on 3000');
-})
-
 export default app;
